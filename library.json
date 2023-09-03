@@ -1,0 +1,23 @@
+{
+  "name": "libcanard",
+  "version": "1.0.0",
+  "description": "A \"libcanard\" library for Dronecan implementation",
+  "keywords": "dronecan, uavcan, libcanard",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/WARGdrones/libcanard.git"
+  },
+  "license": "MIT",
+  "homepage": "https://dronecan.github.io/",
+  "frameworks": "*",
+  "platforms": "*"
+  "export": {
+    "exclude":
+    [
+        "drivers/*",
+        "examples/*",
+        "tests/*",
+        "canard/tests/*"
+    ]
+}
